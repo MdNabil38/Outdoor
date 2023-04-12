@@ -1,0 +1,319 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url(../image/banner-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    z-index: -1;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.header_button {
+    background-color: #DA1C4B;
+    border: 1px solid #DA1C4B;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 15px;
+    transition: 1s;
+    color: #fff;
+}
+
+.header_button:hover {
+    background-color: #b81b42;
+    color: #fff;
+}
+
+.banner_content {
+
+    padding: 145px 0px;
+}
+
+.banner_content h3 {
+
+    color: #fff;
+
+    font-weight: 600;
+}
+
+.banner_content span {
+
+    display: block;
+
+    background-color: #FB2056;
+
+    height: 3px;
+
+    width: 100px;
+
+    margin: auto;
+
+    margin-top: 20px;
+}
+
+.banner_content h1 {
+
+    font-size: 55px;
+
+    color: #fff;
+
+    margin-top: 35px;
+
+    font-weight: 700;
+}
+
+.banner_content .banner_button {
+
+    background-color: #FB2056;
+
+    padding: 10px 26px;
+
+    border-radius: 30px;
+
+    color: #fff;
+
+    font-weight: 500;
+
+    margin-top: 45px;
+}
+
+.quatation {
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.quatation_content {
+    padding: 60px 0px;
+}
+
+.quatation_content h1 {
+    font-size: 22px;
+}
+
+.quatation_content p {}
+
+.quatation_image {
+    position: absolute;
+    width: 10%;
+    top: 35px;
+    left: 95px;
+}
+.event_content{
+
+}
+.event_content h1{
+    
+margin-top: 100px;
+    
+font-size: 40px;
+    
+font-weight: 600;
+}
+.event_content span{
+    
+display: block;
+    
+background-color: #FB2056;
+    
+height: 3px;
+    
+width: 100px;
+    
+margin: auto;
+    
+margin-top: 20px;
+    
+margin-bottom: 50px;
+}
+.event_blog{
+
+text-align: center;
+
+width: 90%;
+
+margin-top: 40px;
+}
+.event_blog h3{
+
+font-weight: 600;
+
+margin-top: 30px;
+}
+.event_blog p{
+
+}
+.event_image{
+}
+.event_image img{
+    
+border-radius: 10px;
+    
+box-shadow: 10px 10px #edecec;
+}
+.event_button{
+
+background-color: #FB2056;
+
+padding: 10px 30px;
+
+color: #fff;
+
+font-weight: 500;
+
+border-radius: 30px;
+transition: 1s;
+}
+.event_button:hover{
+    background-color: #b7123b;
+    color: #fff;
+}
+.explore{background-image: url(../image/explore.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;min-height: 80vh;margin: 100px 0px;position: relative;z-index: 0;}
+.explore::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    z-index: -1;
+}
+.explore_content{
+    color: #fff;
+    padding: 125px 0px;
+}
+.explore_content h1{
+    
+font-size: 35px;
+    
+font-weight: 600;
+}
+.explore_content span{
+    
+display: block;
+    
+background-color: #FB2056;
+    
+height: 3px;
+    
+width: 60px;
+    
+margin: 30px 0px;
+}
+.explore_content p{
+    
+font-size: 14px;
+}
+.explore_button{
+    background-color: #FB2056;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 1s;
+}
+.explore_button:hover{
+    background-color: #cd1b48;
+    color: #fff;
+}
+.upcoming_content{
+
+}
+.upcoming_content h1{
+    
+font-size: 40px;
+    
+font-weight: 600;
+}
+.upcoming_content span{
+    
+display: block;
+    
+background-color: #FB2056;
+    
+height: 3px;
+    
+width: 50px;
+    
+margin: 20px 0px;
+}
+.upcoming_content p{
+    
+font-size: 15px;
+    
+font-weight: 500;
+}
+.upcoming_image{
+    
+}
+.upcoming_image img{
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.footer{
+
+background-color: #191919;
+
+padding: 50px 0px;
+
+margin-top: 100px;
+}
+.footer_content{
+
+color: #fff;
+}
+.footer_content h4{
+    
+font-size: 15px;
+}
+.footer_content p{
+    
+}
+.navbar-toggler{
+    color: #fff;
+    border: none;
+    transition: 1s;
+}
+.navbar-collapse {
+    text-align: center;
+}
